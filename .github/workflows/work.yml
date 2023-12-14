@@ -15,10 +15,10 @@ jobs:
         python-version: '3.8'
 
     - name: Installer panda et numpy
-      uses: actions/setup-python@v2
+      # uses: actions/setup-python@v2
       run: pip install --no-cache-dir -r requirements.txt
       # run: python -m pip install --upgrade pip install pandas numpy
 
     - name: executer un code python qui import pandas et print('pandas dispo')
-      uses: actions/setup-python@v2
+      # uses: actions/setup-python@v2
       run: python test.py
