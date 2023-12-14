@@ -1,5 +1,12 @@
 import pandas as pd
 import numpy as np
+from datetime import datetime
+
+# Obtenez l'heure actuelle
+heure_actuelle = datetime.now().time()
+
+# Imprimez l'heure
+print("Heure actuelle :", heure_actuelle)
 
 # Créer un DataFrame avec pandas
 data = {'Nom': ['Alice', 'Bob', 'Charlie', 'David'],
