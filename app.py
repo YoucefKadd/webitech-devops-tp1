@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
+print('hello jsp')
+
 # Liste temporaire pour stocker les tâches
 tasks = [
     {
