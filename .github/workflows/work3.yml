@@ -1,8 +1,6 @@
 name: Python Application Workflow 2
 
-on:
-  schedule:
-    - cron: '38 16 * * *'
+on: [push]
     
 jobs:
   build-and-test:
